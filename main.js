@@ -1,15 +1,15 @@
-let lastName = '山田';
-let firstName = '太郎';
-let fullName = lastName + ' ' + firstName;
-let myAge = 10;
-let friendAge = 13;
-let totalAge = myAge + friendAge;
+const lastName = '山田';
+const firstName = '太郎';
+const fullName = lastName + ' ' + firstName;
+const myAge = 10;
+const friendAge = 13;
+const totalAge = myAge + friendAge;
 const yearOfDays = 365;
-let numberOfDays = totalAge * yearOfDays;
-let numberOfChildren = 3;
-let numberOfCakes = 10;
-let numberOfCakesByChild = numberOfCakes/numberOfChildren;
-let numberOfRestOfCakes = numberOfCakes%numberOfChildren;
+const numberOfDays = totalAge * yearOfDays;
+const numberOfChildren = 3;
+const numberOfCakes = 10;
+const numberOfCakesByChild = numberOfCakes / numberOfChildren;
+const numberOfRestOfCakes = numberOfCakes % numberOfChildren;
 
 console.log(lastName);
 console.log(firstName);
